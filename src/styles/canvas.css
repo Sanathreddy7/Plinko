@@ -1,0 +1,46 @@
+.canvasStyle {
+    border: 2px solid #000;
+    display: block;
+    margin: 0 auto;
+    background-color: #000;
+    width: 50rem;
+}
+
+.AppStyle {
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.SimulationStyle {
+    color: white;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.scoreStyle {
+    font-size: 20px;
+    color: white;
+}
+
+.IndividualScoresStyle {
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #333;
+    margin-bottom: 3px;
+    margin-right: 20px;
+}
+
+@media (min-width: 380px) {
+    .canvasStyle {
+        width: 600px;
+    }
+}
